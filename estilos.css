@@ -1,8 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 nav{
     position: absolute;
@@ -16,6 +11,7 @@ nav{
     background-color: #242526;
 }
 nav .logo{
+    list-style: none;
     float: left;
     width: 40%;
     height: 100%;
@@ -26,6 +22,11 @@ nav .logo{
     text-transform: uppercase;
     font-weight: bold;
 
+}
+nav .logo a {
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
 }
 nav .list{
     float: right;
@@ -69,5 +70,13 @@ nav .icon-bars{
     right: 5%;
     top: 50%;
     transform: translate(-50%);
-    
+
+}
+
+#img1{
+   
+    align-items: center;
+    width: 20%;
+    height: 20%;
+
 }
